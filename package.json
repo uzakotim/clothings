@@ -4,13 +4,15 @@
   "description": "Web-site for clothings wardrobe",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Timur Uzakov",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express3-handlebars": "^0.2.2",
+    "nodemon": "^1.14.9"
   }
 }
