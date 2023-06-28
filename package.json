@@ -1,23 +1,27 @@
 {
-  "name": "clothings",
-  "version": "1.0.0",
-  "description": "Web-site for clothings wardrobe",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Timur Uzakov",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express3-handlebars": "^0.2.2",
-    "nodemon": "^1.14.9"
-  },
-  "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
-    "zombie": "^6.1.4"
-  }
+    "name": "clothings",
+    "version": "1.0.0",
+    "description": "Web-site for clothings wardrobe",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Timur Uzakov",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express3-handlebars": "^0.2.2",
+        "nodemon": "^1.14.9"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "grunt": "~0.4.1",
+        "grunt-cafe-mocha": "^0.1.13",
+        "grunt-contrib-jshint": "^3.2.0",
+        "grunt-exec": "^3.0.0",
+        "mocha": "^10.2.0",
+        "zombie": "^6.1.4"
+    }
 }
