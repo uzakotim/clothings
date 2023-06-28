@@ -26,6 +26,9 @@ app.get('/about', function(req, res){
 app.get('/shops/reserved', function(req, res){
    res.render('shops/reserved');
 });
+app.get('/shops/waikiki', function(req, res){
+   res.render('shops/waikiki');
+});
 app.get('/shops/request-cloth', function(req, res){
    res.render('shops/request-cloth');
 });
