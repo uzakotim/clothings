@@ -22,6 +22,13 @@ app.get('/', function(req, res){
 app.get('/about', function(req, res){
    res.render('about', {fortune: fortune.getFortune(), pageTestScript: '/qa/tests-about.js'});
 });
+
+app.get('/shops/reserved', function(req, res){
+   res.render('shops/reserved');
+});
+app.get('/shops/request-cloth', function(req, res){
+   res.render('shops/request-cloth');
+});
 //custom 404 page
 app.use(function(req,res,next){
    res.status(404);
