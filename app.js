@@ -50,12 +50,26 @@ app.disable("x-powered-by");
 app.get("/", function (req, res) {
     res.render("home");
 });
+app.get("/jquery-test", function (req, res) {
+    res.render("jquery-test");
+});
 app.get("/headers", function (req, res) {
     res.set("Content-Type", "text/plain");
     var s = "";
     for (var name in req.headers)
         s += name + ": " + req.headers[name] + "\n";
     res.send(s);
+});
+app.get("/nursery-rhyme", function (req, res) {
+    res.render("nursery-rhyme");
+});
+app.get("/data/nursery-rhyme", function (req, res) {
+    res.json({
+        animal: "squirrel",
+        bodyPart: "tail",
+        adjective: "bushy",
+        noun: "heck",
+    });
 });
 app.get("/about", function (req, res) {
     res.render("about", {
