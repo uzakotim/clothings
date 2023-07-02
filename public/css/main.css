@@ -1,14 +1,18 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.logo {
+    text-align: center;
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
 .btn-file {
     position: relative;
     overflow: hidden;
 }
-.btn-file input[type=file] {
+.btn-file input[type="file"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -23,20 +27,3 @@
     cursor: inherit;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
