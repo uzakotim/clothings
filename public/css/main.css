@@ -7,6 +7,8 @@
 .logo img {
     display: block;
     margin: 0 auto;
+    max-width: 33%;
+    height: auto;
 }
 .btn-file {
     position: relative;
