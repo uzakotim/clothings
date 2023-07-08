@@ -18,10 +18,11 @@
         "express-fileupload": "^1.4.0",
         "express-session": "^1.17.3",
         "express3-handlebars": "^0.2.2",
-        "fileupload": "^1.0.0",
+        "fileupload": "^0.2.1",
         "formidable": "^3.5.0",
         "jquery-file-upload": "^4.0.11",
         "jquery-file-upload-middleware": "^0.1.8",
+        "nodemailer": "^6.9.3",
         "nodemon": "^1.14.9"
     },
     "devDependencies": {
